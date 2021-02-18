@@ -6,11 +6,18 @@ body { padding-top: 50px; }
 ****************************************/
 #cv-entete { margin-top: -45px; width: 100%;}
 #cv-photo { width: 172px; height: 172px; border-radius: 50%; overflow: hidden; padding: 5px;
- background: #eee; display: inline-block; }
+            background: #eee; display: inline-block; }
 #cv-photo img { width: 160px; height: 160px; border-radius: 50%; }
 #cv-intro h1 { margin: 0; padding: 0; font-size: 2.4em; font-weight: 700;
- letter-spacing: -1px;}
+               letter-spacing: -1px;}
 #cv-intro h1 span { color: rgb(226,0,26); }
 #cv-intro::after { background: url('images/ligne.png'); /* Dossier "images" est un sous-
  dossier de "css" (à créer) */
- width: 100%; height: 3px; margin-top: 15px; content: ''; display: block;}
+                   width: 100%; height: 3px; margin-top: 15px; content: ''; display: block;}
+/****************************************
+* Rubriques
+****************************************/
+.rubrique { margin-bottom: 15px; }
+.rubrique h2 { color: rgb(226,0,26); }
+.rubrique h2::before{ margin-right: 5px; }
+.rubrique p{ font-size: 1.3em; line-height: 1.5em; } 
