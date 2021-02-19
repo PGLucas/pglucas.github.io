@@ -1,8 +1,8 @@
 #titre
 {
-    margin-down: 10px;
+    margin-top: 25px;
 }
 
 #texte{
-    margin-right: 100px;
+    float: left;
 }
